@@ -1,0 +1,33 @@
+
+  
+<button  class="btn1" (click)="setVisibilityMenu()" >Menu</button>
+
+<div class="sideMenu-container"
+     [style.backgroundColor]="theme"
+     [style.width]="widthMenu + '%'"
+     [style.display]="visibleMenu ? 'flex' : 'none'">
+
+  <div class="item">
+    <img src="https://dthezntil550i.cloudfront.net/f4/latest/f41908291942413280009640715/1280_960/1b2d9510-d66d-43a2-971a-cfcbb600e7fe.png" alt="Profile Icon">
+    <p>{{userName}}</p>
+    <button class="btn"(click)="setVisibilityMenu()">Back</button>
+  </div>
+
+  <div class="item">
+    <p><span>🏠</span> Dashboard</p>
+  </div>
+
+  <div class="item">
+    <p><span>😊</span> Profile</p>
+  </div>
+
+  <div class="item">
+    <button class="btn" (click)="setThemeColor('#FF6F61')">Change color</button>
+    <button class="btn" (click)="setSizeMenu()">Change size</button>
+  </div>
+
+</div>
+
+<div class="content">
+  <h1>Ejercicio 2</h1>
+</div>
