@@ -17,7 +17,7 @@
 }
 
 h1 {
-    font-size:calc(8em + 1em + 0.5vmin);; /* Tamaño de la fuente */
+    font-size:7em ; /* Tamaño de la fuente */
     color: #333333b0; /* Color del texto */
     text-align: center; /* Asegura que el texto esté centrado dentro del h1 */
     
